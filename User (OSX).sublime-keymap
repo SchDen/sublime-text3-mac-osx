@@ -1,0 +1,17 @@
+[
+	{ "keys": ["alt+t"], "command": "run_macro_file", "args": {"file": "Packages/User/mymacro/console.log.sublime-macro"} },
+	// Diff tool - Meld
+	{ "keys": ["alt+f2"], "command": "git_diff_tool" },
+	// Установка маркера
+	{ "keys": ["ctrl+m"], "command": "toggle_bookmark" },
+	{ "keys": ["ctrl+super+alt+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+
+  { "keys": ["ctrl+c"], "command": "exit_insert_mode",
+    "context":
+    [
+      { "key": "setting.command_mode", "operand": false },
+      { "key": "setting.is_widget", "operand": false }
+    ]
+  }
+]
+

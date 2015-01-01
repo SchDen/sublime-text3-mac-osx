@@ -1,0 +1,34 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Twilight (SL).tmTheme",
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"folder_exclude_patterns":
+	[
+		".git"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"LESS",
+		"Placeholders",
+		"PHPUnit",
+		"LaTeXing"
+	],
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"open_files_in_new_window": false,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": false,
+	"vintage_start_in_command_mode": true
+}

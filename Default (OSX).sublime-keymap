@@ -1,0 +1,40 @@
+[
+	// Vintage mode
+	{ "keys": ["ctrl+s"], "command": "run_multiple_commands",
+		"args": {
+			"commands":
+			[
+				{"command": "save"},
+				{"command": "exit_visual_mode"},
+				{"command": "exit_insert_mode",
+					"context":
+					[
+						{ "key": "setting.command_mode", "operand": false },
+						{ "key": "setting.is_widget", "operand": false }
+					]
+				},
+			]
+		}
+	},
+	{ "keys": ["ctrl+c"], "command": "exit_insert_mode",
+		"context":
+		[
+			{ "key": "setting.command_mode", "operand": false },
+			{ "key": "setting.is_widget", "operand": false }
+		]
+	},
+	{ "keys": ["alt+t"], "command": "run_macro_file", "args": {"file": "Packages/User/mymacro/console.log.sublime-macro"} },
+	// Diff tool - Meld
+	{ "keys": ["alt+f2"], "command": "git_diff_tool" },
+	// Установка маркера
+	{ "keys": ["ctrl+m"], "command": "toggle_bookmark" },
+	{ "keys": ["ctrl+super+alt+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+
+	// PHPUnit run
+	{ "keys": ["alt+t"], "command": "build", "args": {"variant": "file"} },
+	{ "keys": ["alt+a"], "command": "build", "args": {"variant": "all"} },
+
+	{ "keys": ["ctrl+["], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+]"], "command": "focus_group", "args": { "group": 1 } },
+]
+

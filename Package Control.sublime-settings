@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Blade Snippets",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"EditorConfig",
+		"EncodingHelper",
+		"Git",
+		"Laravel Blade Highlighter",
+		"Modific",
+		"Package Control",
+		"PHPUnit Snippets",
+		"PlainTasks",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Theme - Cyanide",
+		"Theme - Tech49"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"selector": "source.php",
+	"variants": [
+		{
+		 "name": "file",
+			"shell_cmd": "ssh vagrant@127.0.0.1 -p 2222 'cd ~/Code/laravel-app && phpunit ${file/\\/Users\\/den-shapkin\\/Projects\\/laravel-app\\///}'",
+		},
+
+		{
+		 "name": "all",
+			"shell_cmd": "ssh vagrant@127.0.0.1 -p 2222 'cd ~/Code/laravel-app && phpunit'",
+		},
+	]
+}
